@@ -1,0 +1,26 @@
+<h2>Editor</h2>
+<p>This page uses a custom directive, <code>btf-markdown</code>, written by Brian Ford,
+    and delivered as an AngularJS module.  We boot it in `app.js` as a dependent module.</p>
+<p>Type into the text box on the left, and as you enter valid markdown, you'll see it automagically appear
+on the right-hand side.</p>
+<p>See <a href="https://github.com/btford/angular-markdown-directive">angular-markdown-directive</a> for details on how we installed it.</p>
+<hr/>
+
+<div class="row">
+    <div class="col-md-5">
+        <h3>Markdown input</h3>
+        <div class="form-group">
+        <textarea rows='20' class='textEditor form-control' ng-model="textDocument">
+        </textarea>
+            </div>
+    </div>
+    <div class="col-md-7">
+
+        <h3>Data in HTML</h3>
+
+        <div btf-markdown="textDocument">
+
+        </div>
+
+    </div>
+</div>

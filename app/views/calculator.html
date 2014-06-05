@@ -1,0 +1,18 @@
+<h2>A simple calculator</h2>
+<p>Type your numbers and press enter to add to the stack. Operations operate on last two numbers.</p>
+<p>Use +, -, * and /. Add your own functions in <code>calculator.js</code>.</p>
+<hr/>
+<form novalidate name="inputForm">
+<input type="text"
+       ng-keyup="enter($event, value)"
+       ng-pattern="/^\+$|^\-$|^\*$|^\/$|[0-9]*\.?[0-9]*/"
+       ng-model="value"><br/>
+</form>
+
+<h3>Stack</h3>
+
+<div ng-model="tape">
+    <div ng-repeat="value in stack track by $index">
+        {{ value }}
+    </div>
+</div>
