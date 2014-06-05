@@ -43,7 +43,9 @@ Maven, Scala and other training needs. We do both on-site and hosted
 training for small teams upward of 6 students.
 
 Ken Rimple
+
 Chariot Solutions
+
 [http://chariotsolutions.com/training](http://chariotsolutions.com/training)
 
 
