@@ -30,7 +30,10 @@ Once you've done that, the npm command line can do a number of things:
 * `npm start` - starts up the project (and if you forgot to run npm or
   bower install, it'll do that for you.
 * `npm test` - run the Karma tests against your application. Our tests
-  are located in `test/spec`.
+  are located in `test/spec`. Testing watches the scripts continually,
+so if you leave it open and save files, it will re-run the tests. If you
+don't like that, edit `karma.conf.js` (or create another one) and turn
+off the singleRun and autoWatch settings.
 * `npm run-script jshint` - If you're mucking around and think you have
   a syntax error, run the jshint tool. Without a compiler you MUST use a
   linter in Javascript - JSHint is the best one in my opinion.

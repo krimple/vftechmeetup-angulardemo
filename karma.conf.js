@@ -19,6 +19,9 @@ module.exports = function(config) {
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-route/angular-route.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/angular-sanitize/angular-sanitize.js',
+      'app/bower_components/showdown/compressed/showdown.js',
+      'app/bower_components/angular-markdown-directive/markdown.js',
       'app/scripts/**/*.js',
       'test/**/*Spec.js'
     ],
